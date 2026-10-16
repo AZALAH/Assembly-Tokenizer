@@ -4,6 +4,8 @@ A lexer and symbol table generator for MIPS-style assembly, written entirely in 
 
 Built in three stages as a UMass Lowell course project (Spring 2026).
 
+![Example run](docs/preview.png)
+
 ## What it does
 
 Given input like:
