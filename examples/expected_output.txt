@@ -1,0 +1,104 @@
+Enter a new input line. 
+222224 22 4214 22222 5
+      Token               Token Type  
+-----------------     ----------------
+      FIRST                    2
+      :                        4
+      li                       2
+      $                        4
+      t0                       2
+      ,                        4
+      VALUE                    2
+      #                        5
+
+      Symbol          Address             Declaration
+  --------------  ------------------  -------------------
+      FIRST           0x00000400          1
+      VALUE           0x00000400          0
+      
+Enter a new input line. 
+222 4214 4214 421 5
+      Token               Token Type  
+-----------------     ----------------
+      add                      2
+      $                        4
+      t1                       2
+      ,                        4
+      $                        4
+      t0                       2
+      ,                        4
+      $                        4
+      t0                       2
+      #                        5
+
+      Symbol          Address             Declaration
+  --------------  ------------------  -------------------
+      FIRST           0x00000400          1
+      VALUE           0x00000400          0
+      
+Enter a new input line. 
+22224 22 4214 22222 5
+      Token               Token Type  
+-----------------     ----------------
+      LOOP                     2
+      :                        4
+      lw                       2
+      $                        4
+      t2                       2
+      ,                        4
+      COUNT                    2
+      #                        5
+
+      Symbol          Address             Declaration
+  --------------  ------------------  -------------------
+      FIRST           0x00000400          1
+      VALUE           0x00000400          0
+      LOOP            0x00000408          1
+      COUNT           0x00000408          0
+      
+Enter a new input line. 
+222 4214 4214 22222 5
+      Token               Token Type  
+-----------------     ----------------
+      bne                      2
+      $                        4
+      t0                       2
+      ,                        4
+      $                        4
+      t1                       2
+      ,                        4
+      FIRST                    2
+      #                        5
+
+      Symbol          Address             Declaration
+  --------------  ------------------  -------------------
+      FIRST           0x00000400          1
+      VALUE           0x00000400          0
+      LOOP            0x00000408          1
+      COUNT           0x00000408          0
+      FIRST           0x0000040C          0
+      
+Enter a new input line. 
+222 4214 422224 2222 5
+      Token               Token Type  
+-----------------     ----------------
+      beq                      2
+      $                        4
+      t2                       2
+      ,                        4
+      $                        4
+      zero                     2
+      ,                        4
+      DONE                     2
+      #                        5
+
+      Symbol          Address             Declaration
+  --------------  ------------------  -------------------
+      FIRST           0x00000400          1
+      VALUE           0x00000400          0
+      LOOP            0x00000408          1
+      COUNT           0x00000408          0
+      FIRST           0x0000040C          0
+      DONE            0x00000410          0
+      
+Enter a new input line. 
